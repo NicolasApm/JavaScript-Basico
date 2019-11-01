@@ -539,10 +539,9 @@
         height: auto;
         justify-content: center !important;
         margin-top: 1em;
-          
         }
-        .boxOut{
-            width: 80% !important;
+  .boxOut{
+         width: 80% !important;
         }
     }
     
@@ -602,6 +601,9 @@
 }
 .event p:nth-child(4){   
     color: var(--info);
+}
+.event p:nth-child(5){   
+    color: var(--yellow);
 }
 .event p:nth-child(2){   
     color: var(--secondary);
