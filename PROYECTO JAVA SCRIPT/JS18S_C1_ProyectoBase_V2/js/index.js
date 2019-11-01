@@ -58,27 +58,3 @@ $(document).ready(function () {
     } 
   })
 });
-/*function pasadosEv(){
-  document.getElementById("pasados").innerHTML ="";
-}
-function proxEv(){
-  document.getElementById("proximos").innerHTML ="";
-}*/
-/*function prueba(pasados) {
-  
-  console.log(pasados.nombre);
-  
-  var newNode = document.createElement("div");
-  //var separador= document.createElement("hr");
-  //var space= document.createElement("br");
-  var sp2 = document.getElementById("pasadoSub1");
-  // Obtener una referencia al nodo padre
-  var parentDiv = document.getElementById("pasadoSub1").parentNode;
-  var newContent1 = document.createTextNode(pasados.nombre); 
- // var newContent2 = document.createTextNode(iterator.descripcion); 
-  newNode.appendChild(newContent1);
-  //newNode.appendChild(space);
-  //newNode.appendChild(newContent2);
- // newNode.appendChild(separador);
-  parentDiv.insertBefore(newNode, sp2);
-  }*/

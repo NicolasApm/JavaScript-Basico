@@ -8,6 +8,8 @@ var contenidoPas=[];
 var detallespas=[];
 var newcontent=[];
 var limpiar=[];
+limpiarT=document.getElementById("titulop");
+SubT=document.getElementById("subtitulop");
 
 $(document).ready(function () {
 
@@ -53,6 +55,8 @@ $(document).ready(function () {
   for (let i = 0; i < ElementDiv.length; i++) {
       limpiar[i]=document.getElementById("cont"+i);
       ElementDiv[i].addEventListener("click", function() {
+        limpiarT.innerHTML="Detalles";
+        SubT.innerHTML="Ver los detalles de este evento:";      
       switch (ElementDiv[i].id) {
         case "pasados0":
               detallespas[i].innerHTML=newcontent[i];   
@@ -77,6 +81,7 @@ $(document).ready(function () {
         default:
         break;
       }
+     
       });
      }
      function reiniciar(i){
